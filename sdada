@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pelu X", "Midnight")
+--MAIN
+local Main = Window:NewTab("Da Hood")
+local MainSection = Main:NewSection("Paid 50R$ Script")
+--BUTTON
+MainSection:NewButton("Anti Lock", "Make you avoid dumbskidz using lock lol", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DOskdoak/hi-babaa/main/gayass"))()
+end)
+--2
+local Second = Window:NewTab("Credits")
+local SecondSection = Second:NewSection("Credit gives to هل#0666")
